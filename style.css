@@ -32,9 +32,9 @@
 
 .button-div {
     display: flex;
-    justify-content: flex-end;
-    padding-right: 10%;
+    justify-content: space-around;
     padding-top: 10%;
+    
 }
 
 .card h3 {
@@ -83,6 +83,6 @@ form {
     height: 30px;
 }
 
-.remove {
+.card-btn {
     width: 70px;
 }
