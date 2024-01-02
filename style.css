@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card-container {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
+    justify-items: center;
+    row-gap: 2em;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.card {
+    background-color: aqua;
+    width: 80%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10%;
+}
+
+.button-div {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+    padding-top: 10%;
+}
+
+.card h3 {
+    font-size: 50px;
+}
+
+.card p {
+    font-size: 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 100vh;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sidebar {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    padding: 250px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+
+}
+
+.form-submit {
+    width: 100px;
+    height: 30px;
+}
+
+.remove {
+    width: 70px;
+}
